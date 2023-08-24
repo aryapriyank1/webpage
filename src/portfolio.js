@@ -23,7 +23,10 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with Java and JavaScript, and other cool frameworks."
+      "Seasoned Full Stack Developer 🚀 with 3+ Years of Experience, " +
+              "specializing in Building Web Applications,  Data Classification Models, " +
+              "and Smart Text Classification Tools. Committed to Crafting Innovative Solutions " +
+              "that Truly Make a Difference."
   ),
   resumeLink:
     "https://drive.google.com/file/d/19MICAzmOcJp-5Hxybgx2KhhGZohKA6dX/view?usp=sharing", // Set to empty to hide the button
@@ -49,15 +52,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  // subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "I love tackling exciting projects that challenge me and allow me to learn new skills. From " +
+    "building a text classification tool using Scala and Apache PDFBox at Cognizant, to exploring " +
+    "urban mobility behavior using Python and Machine Learning at Virginia Tech, I have always " +
+    "been eager to apply my knowledge and creativity to real-world problems."
+    // emoji(
+    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    // ),
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,12 +81,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "JavaScript",
+      skillName: "javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "html-5",
@@ -103,6 +115,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     },
     // {
     //   skillName: "swift",
@@ -132,7 +152,7 @@ const educationInfo = {
     {
       schoolName: "Virginia Tech",
       logo: require("./assets/images/virginiaTechLogo.png"),
-      subHeader: "Masters in Computer Science",
+      subHeader: "Masters in Computer Science | GPA : 3.94",
       duration: "August 2021 - May 2023",
       desc: "Coursework: Data Analytics, Software Design, Software Engineering, Urban Mobility & Computing",
       descBullets: [
@@ -221,7 +241,8 @@ const openSource = {
 
 const bigProjects = {
   title: emoji("Projects 🏆 "),
-  subtitle: "Some Cool Stuff that I have done !",
+  // subtitle: "Some Cool Stuff that I have done !",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/jobPortal.webp"),
@@ -241,7 +262,7 @@ const bigProjects = {
     {
       image: require("./assets/images/urbanMobility.webp"),
       imageAlt: "Urban Mobility",
-      projectName: "Detecting Urban Mobility Behavior",
+      projectName: "Urban Mobility Behavior",
       projectDesc: "Demonstrated urban mobility changes before and during COVID-19 pandemic in Washington DC " +
                     "using large datasets like SmartTrip data by WMATA, demographic data from City-Data.com, " +
                     "and user mobility data from GeoDS.",
@@ -256,8 +277,10 @@ const bigProjects = {
       image: require("./assets/images/wifiPositioning.webp"),
       imageAlt: "Wi-Fi Positioning",
       projectName: "Indoor Wi-Fi Positioning",
-      projectDesc: "Created an Indoor Wi-Fi positioning android application to locate users with an " +
-                    "accuracy within 5m using a coordinate system with the Wi-Fi routers as reference points.",
+      projectDesc: "Created an Android application to locate users with an accuracy within 5m using a " +
+          "coordinate system with the Wi-Fi routers as reference points and implementing Trilateration " +
+          "algorithm to pinpoint smartphone location on a 2D map.\n" +
+          "\n",
       footerLink: [
         // {
         //   name: "Visit Website",

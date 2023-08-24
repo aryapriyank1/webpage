@@ -34,14 +34,20 @@
   margin-top: 20px;
 }
 
+.dark-mode .greeting-text {
+  font-size: 60px;
+  line-height: 1.1;
+  color: $textColorDark !important;
+}
+
 .greeting-text {
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1.1;
   color: $textColor !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 27px;
   line-height: 40px;
 }
 
@@ -82,8 +88,16 @@
   }
 }
 
+.greeting-image-div {
+  height: 450px;
+  margin-top: 35px;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
+  .dark-mode .greeting-text {
+    font-size: 50px;
+  }
   .greeting-text {
     font-size: 50px;
   }
