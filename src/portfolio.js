@@ -29,7 +29,7 @@ const greeting = {
               "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/19MICAzmOcJp-5Hxybgx2KhhGZohKA6dX/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1vRuo5Erlq5tMFyGnP5VBVVApbtQRqqqk/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -58,7 +58,7 @@ const skillsSection = {
     "I love tackling exciting projects that challenge me and allow me to learn new skills. From " +
     "building a text classification tool using Scala and Apache PDFBox at Cognizant, to exploring " +
     "urban mobility behavior using Python and Machine Learning at Virginia Tech, I have always " +
-    "been eager to apply my knowledge and creativity to real-world problems."
+    "been eager to apply my knowledge and creativity to solve real-world problems."
     // emoji(
     //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     // ),
