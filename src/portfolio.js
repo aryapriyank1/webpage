@@ -59,6 +59,7 @@ const skillsSection = {
     "building a text classification tool using Scala and Apache PDFBox at Cognizant, to exploring " +
     "urban mobility behavior using Python and Machine Learning at Virginia Tech, I have always " +
     "been eager to apply my knowledge and creativity to solve real-world problems."
+
     // emoji(
     //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     // ),
