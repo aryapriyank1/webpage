@@ -29,7 +29,7 @@ const greeting = {
               "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1vRuo5Erlq5tMFyGnP5VBVVApbtQRqqqk/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1A6-quRpzm0LSR2Khqbu0EqcVDj3QDvzo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
