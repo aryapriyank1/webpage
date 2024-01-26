@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -12,12 +12,13 @@ import {
   bigProjects,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
+  // eslint-disable-next-line
   const viewOpenSource = openSource.display;
   const viewEducationInfo = educationInfo.display;
   const viewBigProjects = bigProjects.display;
@@ -38,7 +39,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
@@ -59,9 +60,9 @@ function Header() {
             </li>
           )}
           {viewExperience && (
-              <li>
-                <a href="#experience">Work Experiences</a>
-              </li>
+            <li>
+              <a href="#experience">Work Experiences</a>
+            </li>
           )}
           {viewBigProjects && (
             <li>
