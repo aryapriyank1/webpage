@@ -23,12 +23,15 @@ const greeting = {
   username: "Priyank Arya",
   title: "Hi all, I'm Priyank",
   subTitle: emoji(
-    "Full Stack Developer with 2+ Years of Experience, " +
-      "specializing in Building Web Applications. Committed to Crafting Innovative Solutions " +
-      "that Truly Make a Difference."
+    "Software Engineer with 3+ years of Experience, " +
+      "specializing in Building Full-stack Applications and Data Pipelines. " +
+      "Committed to Crafting Innovative Solutions that Truly Make a Difference."
+    // "Full Stack Developer with 2+ Years of Experience, " +
+    //   "specializing in Building Web Applications. Committed to Crafting Innovative Solutions " +
+    //   "that Truly Make a Difference."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-UgfPXrtzVTBjaPnJZQR5tBX8IDADeeF/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1_s35_3wcMY2ZcxreBdjFCxqldlSUT2kx/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -55,8 +58,9 @@ const skillsSection = {
   subTitle: "",
   skills: [
     "I love tackling exciting projects that challenge me and allow me to learn new skills. " +
-      "From building a react application focusing on drag and drop, grid layout, and flex layout, " +
-      "to developing an online bookstore using Vue.js, Typescript, Java, and MySQL, I have always " +
+      "From building a React Application focusing on Drag and Drop, Grid Layout, and Flex Layout, " +
+      // "to developing an online bookstore using Vue.js, Typescript, Java, and MySQL, I have always " +
+      "to developing an Observability Pipeline using Elasticsearch and Kafka, I have always " +
       "been eager to apply my knowledge and creativity to solve real-world problems.",
 
     // emoji(
@@ -201,22 +205,37 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "Virginia Tech",
+      companylogo: require("./assets/images/virginiaTechLogoWhiteBack.png"),
+      date: "July 2023 – Present",
+      desc: "",
+      descBullets: [
+        "Introduced an external sorting algorithm using Replacement Selection and Multi-way " +
+          "Merge using modified MinHeap and the Java ByteBuffer, dividing the file into 512-byte " +
+          "blocks for sorting 16-byte records.",
+        "Created a React application with rapid prototyping, utilizing React DnD and hooks. " +
+          "Optimized layout with essential React packages including react-rnd, react-grid-layout, " +
+          "flexlayout-react, and react-split-pane.",
+      ],
+    },
+    {
+      role: "Software Engineer",
       company: "MediaKind",
       companylogo: require("./assets/images/mediakindLogo.png"),
       date: "September 2018 – June 2021",
       desc: "",
       descBullets: [
-        "Created a Content and User Management portal on the .NET platform, using C#, TypeScript, " +
-          "and Knockout.js in the MVC pattern to connect 12 telecom clients to user metadata.",
-        "Migrated monolithic architecture to 11 microservices reducing production bugs and improving software\n" +
-          "development life cycle time by 60%.",
-        "Designed and implemented functional and integration test cases for the web application using Selenium.",
-        "Implemented unit test cases for the application using QUnit and Chutzpah, ensuring code " +
-          "functionality, early bug detection, and enabling confident code refactoring. Successfully " +
-          "increased code coverage from 40% to 95%.",
-        "Developed backend Scala code using Apache Spark to store user-generated logs data into Kafka topics.",
-        "Worked on data visualization using Elasticsearch, Kafka, and Kibana stack, resulting in an " +
-          "80% improvement in data monitoring and client engagement.",
+        "Backend: Developed a User Activity Analytics microservice with Java and Spring Boot " +
+          "managing 10,000 requests per second with a p99 latency of 800ms using Cassandra database.",
+        "Frontend: Created an Operator Portal using React.js with TypeScript and utilized react-charts" +
+          " for visualizations, resulting in an 80% improvement in data monitoring and client engagement.",
+        "Observability Pipeline: Implemented an observability pipeline to enable real-time visualizations " +
+          "on the Operator Portal by storing user activity logs and events into Elasticsearch via Kafka.",
+        "Code Containerization: Refactored monolithic application into 11 microservices with REST APIs " +
+          "for CRUD operations and deployed them on Microsoft Azure using Docker reducing operational " +
+          "costs by 40%.",
+        "Testing: Implemented unit test cases for the application using Jest, increasing code " +
+          "coverage from 40% to 95%.",
       ],
     },
     // {
@@ -281,14 +300,17 @@ const bigProjects = {
       ],
     },
     {
-      image: require("./assets/images/jobPortal.webp"),
-      imageAlt: "Job Portal",
-      projectName: "Campus Job Portal",
+      image: require("./assets/images/jobConnect.webp"),
+      imageAlt: "Job Connect",
+      projectName: "Campus Job Connect",
       projectDesc:
-        "Designed and implemented a comprehensive job portal connecting 30,000 students with " +
-        "3,000 Virginia Tech staff members to reduce email clutter and " +
-        "provide recommendations to students and staff based on profiles and " +
-        "job description.",
+        // "Designed and implemented a comprehensive job portal connecting 30,000 students with " +
+        // "3,000 Virginia Tech staff members to reduce email clutter and " +
+        // "provide recommendations to students and staff based on profiles and " +
+        // "job description.",
+        "Designed and developed a comprehensive portal using Vue.js with JavaScript " +
+        "to provide job recommendations to 30,000 students. Implemented DAO pattern " +
+        "to manage CRUD operations via REST APIs, utilizing JDBC to interact with the MySQL database",
       footerLink: [
         // {
         //   name: "Visit Website",

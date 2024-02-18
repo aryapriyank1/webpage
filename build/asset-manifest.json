@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cf80a5d4.css",
-    "main.js": "/static/js/main.a7502211.js",
+    "main.js": "/static/js/main.9425167a.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.c64a5aea.chunk.js": "/static/js/64.c64a5aea.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -11,7 +11,8 @@
     "static/media/IITJodhpur_Logo.jpg": "/static/media/IITJodhpur_Logo.e752edd56b67a0483409.jpg",
     "static/media/ebookstore.webp": "/static/media/ebookstore.51ab6290e28ad4d34565.webp",
     "static/media/virginiaTechLogo.png": "/static/media/virginiaTechLogo.a0ee187a3af9b4e52fe9.png",
-    "static/media/jobPortal.webp": "/static/media/jobPortal.3e9c6804e4e2d56c1cf5.webp",
+    "static/media/jobConnect.webp": "/static/media/jobConnect.3e9c6804e4e2d56c1cf5.webp",
+    "static/media/virginiaTechLogoWhiteBack.png": "/static/media/virginiaTechLogoWhiteBack.bc6154e33e296c1e83a6.png",
     "static/media/urbanMobility.webp": "/static/media/urbanMobility.4e90129b75172b6988d2.webp",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/DMSans-Regular.ttf": "/static/media/DMSans-Regular.aae18ae4c7505bc987ab.ttf",
@@ -26,7 +27,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.cf80a5d4.css.map": "/static/css/main.cf80a5d4.css.map",
-    "main.a7502211.js.map": "/static/js/main.a7502211.js.map",
+    "main.9425167a.js.map": "/static/js/main.9425167a.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.c64a5aea.chunk.js.map": "/static/js/64.c64a5aea.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.cf80a5d4.css",
-    "static/js/main.a7502211.js"
+    "static/js/main.9425167a.js"
   ]
 }
